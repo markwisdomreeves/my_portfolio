@@ -1,0 +1,38 @@
+
+.contact-section-container {
+  padding: 10px;
+}
+.contact-section-content-box {
+  padding: 10px;
+}
+.contact-section-content-box .form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-section-content-box .form-container input {
+  width: 99%;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.contact-section-content-box .form-container textarea {
+  width: 99%;
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+#btn-style {
+  min-width: 100%;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  background-color: #13a2b7;
+  color: lightgray;
+  border: none;
+}

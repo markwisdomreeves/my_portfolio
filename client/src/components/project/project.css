@@ -1,0 +1,139 @@
+
+.main-project-container {
+  position: relative;
+  overflow: hidden;
+}
+.main-project-container:hover .project-overlay-box {
+  bottom: 0;
+}
+.main-project-container img {
+  width: 100%;
+}
+.project-overlay-box {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.project-overlay-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.project-overlay-item h3 {
+  color: #fff;
+  font-weight: 700;
+}
+.project-overlay-item p {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
+}
+.project-links-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.project-links-box a {
+  padding: 5px;
+  margin: 2px;
+  text-decoration: none !important;
+  color: #fff;
+  background-color: #13a2b7;
+  border-radius: 6px;
+}
+.project-links-box a:hover {
+  background-color: lightgray;
+  color: black;
+}
+.project-vertical-line-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.project-vertical-line {
+  width: 3px;
+  height: 40px;
+  background-color: #13a2b7;
+}
+@media screen and (max-width: 600px) {
+  .project-overlay-box {
+    position: absolute;
+    bottom: 2px;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+  }
+  .project-overlay-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-overlay-item p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .project-links-box a {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline !important;
+  }
+  .project-links-box a:hover {
+    background-color: #13a2b7;
+    color: #fff;
+  }
+  .project-vertical-line {
+    width: 3px;
+    height: 20px;
+  }
+  .single-bank-p-tag {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project-overlay-item p {
+    font-size: 13px;
+  }
+  .project-overlay-item h3 {
+    color: #fff;
+    font-weight: 900;
+  }
+  .project-overlay-item p {
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 400px) {
+  .project-overlay-item h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  .project-overlay-item p {
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 600;
+  }
+  .project-links-box a {
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-decoration: underline !important;
+  }
+}
