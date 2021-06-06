@@ -43,7 +43,7 @@ function App() {
             id="skill"
           />
           <ContactSection
-            title="Contact"
+            title="Contact Me"
             dark={true}
             id="contact"
           />

@@ -19,7 +19,7 @@ const ProjectScreen = ({title, id}) => {
               <div className="project-overlay-box project-overlay-item">
                 <h3>Health care Website Project</h3>
                 <p>
-                  Project built using React, Redux, Node & Express, Mongodb.
+                  This Project was built using React, Redux, Node & Express, Mongodb.
                 </p>
                 <div className="project-links-box">
                   <a href="https://health-c.herokuapp.com/" rel="noreferrer" target="_blank">
@@ -41,7 +41,7 @@ const ProjectScreen = ({title, id}) => {
               <div className="project-overlay-box project-overlay-item">
                 <h3>Real Estate website Project</h3>
                 <p>
-                 Project built using React, Node, Express & Mongodb.
+                  This Project was built using React, Node, Express & Mongodb.
                 </p>
                 <div className="project-links-box">
                   <a href="https://real-estate-h.herokuapp.com/" rel="noreferrer" target="_blank">
@@ -63,7 +63,7 @@ const ProjectScreen = ({title, id}) => {
               <div className="project-overlay-box project-overlay-item">
                 <h3>Bank Website Project</h3>
                 <p>
-                 Project built using React, Node, Express & Mongodb.
+                  This Project was built using React, Node, Express & Mongodb.
                 </p>
                 <div className="project-links-box">
                   <a href="https://rewire-bank.netlify.app/about_us" rel="noreferrer" target="_blank">

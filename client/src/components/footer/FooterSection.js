@@ -31,8 +31,16 @@ const FooterSection = () => {
             <i className="fa fa-instagram" aria-hidden="true"></i>
           </a>
         </div>
-        <p>Software Developer</p>
-        <span>&copy; {date}</span>
+        <div id="main-info-tool-box">
+          <div className="footer-info">
+            <p>All rights reserved - Software Developer</p>
+            <span>&copy; {date}</span>
+          </div>
+          <div className="site-tech-tools">
+            <h5>This Portfolio was built with React.js and Node.js</h5>
+          </div>
+        </div>
+
       </div>
 
       <ScrollToTopButton />

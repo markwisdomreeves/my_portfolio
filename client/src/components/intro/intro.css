@@ -14,9 +14,12 @@
   padding: 10px;
   text-decoration: none;
   font-size: 1.1rem;
-  color: #fff !important;
+  color: lightgray !important;
   background-color: #13a2b7;
   border-radius: 10px;
+}
+.intro-text-box a:hover {
+  background-color: gray !important;
 }
 .intro-text p {
   font-size: 1.2rem;
@@ -33,7 +36,6 @@
   padding: 5px;
   border: 2px solid #13a2b7;
 }
-
 @media screen and (max-width: 750px) {
   .contact-info-box {
     display: flex;
@@ -47,6 +49,17 @@
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 600px) {
+  .intro-text-box a {
+    background-color: gray !important;
+  }
+  .intro-text-box a:hover {
+    background-color: gray !important;
+  }
+  .contact-info-box span {
+    border: 2px solid gray;
+  }
+}
 @media screen and (max-width: 500px) {
   .intro-text p {
     font-size: 1rem;
@@ -54,5 +67,11 @@
   .intro-text-box a {
     padding: 14px;
     font-size: 1.2rem;
+  }
+  .intro-text-box a:hover {
+    background-color: gray !important;
+  }
+  .intro-text-box a:hover {
+    background-color: gray !important;
   }
 }

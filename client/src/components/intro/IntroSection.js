@@ -10,9 +10,9 @@ const IntroScreen = ({title, id}) => {
           <h1>{title}</h1>
           <div className="intro-text-box">
             <div className="intro-text">
-              <p>I am a Passionate Developer by Job.</p>
+              <p>I am a Passionate Web Developer by Job.</p>
             </div>
-            <a href="https://drive.google.com/file/d/1ZtzYA96FUuEbtseQLm_OyvX2bDC1mmzu/view?usp=sharing" rel="noreferrer" target="_blank">Download CV</a>
+            <a href="https://drive.google.com/file/d/1h5cUYmYFTTx9Af7nrnNlMdlbSvUc6hsP/view?usp=sharing" rel="noreferrer" target="_blank">Download CV</a>
             <div className="intro-text">
               <p>
                 I lived in Italy, Europe. I have strong passion for building great things.

@@ -43,18 +43,41 @@
   font-weight: 400;
   color: lightgray;
 }
-.education-box a {
-  padding: 10px;
+.education-box .tech-school-link {
+  padding: 6px;
   background-color: #13a2b7;
   text-decoration: none;
   color: lightgray;
   border-radius: 10px;
   text-decoration: underline !important;
 }
+.education-box .tech-school-link:hover {
+  background-color: gray;
+}
 .education-box h4 {
   font-size: 14px;
   font-weight: 400;
   color: lightgray;
+}
+.cert-link-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+}
+.cert-link-box h3 {
+  font-size: 1rem;
+  padding-right: 5px;
+}
+.cert-link-box .cert-link-style {
+  font-size: 1rem;
+  text-decoration: underline;
+  color: #13a2b7 !important;
+}
+.cert-link-box .cert-link-style:hover {
+  color: gray !important;
 }
 @media screen and (max-width: 650px) {
   .education-box h2 {
@@ -63,8 +86,31 @@
   .education-box h3 {
     font-size: 1rem;
   }
-  .education-box a {
-    padding: 10px;
+  .education-box .tech-school-link {
+    padding: 6px;
+    background-color: #13a2b7 !important;
+  }
+  .cert-link-box .cert-link-style:hover {
+    color: #13a2b7 !important;
+  }
+  .education-box h4 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .education-box .tech-school-link {
+    padding: 6px;
+    background-color: gray !important;
+  }
+  .education-box .tech-school-link {
+    padding: 6px;
+    background-color: gray !important;
+  }
+  .cert-link-box .cert-link-style {
+    color: gray !important;
+  }
+  .cert-link-box .cert-link-style:hover {
+    color: gray !important;
   }
   .education-box h4 {
     font-size: 14px;

@@ -85,7 +85,7 @@ const ContactScreen = ({title, id}) => {
                 id="message"
                 rows="6"
                 cols="45"
-                placeholder="What's on you mind?"
+                placeholder="What's on your mind?"
               ></textarea>
 
               <button type="submit" id="btn-style" onClick={submitContact}>
