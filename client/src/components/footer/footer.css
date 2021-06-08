@@ -25,33 +25,10 @@
   bottom: 0;
   padding: 10px;
 }
-.footer-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-.site-tech-tools {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-.site-tech-tools h5 {
-  color: lightgray !important;
-  font-weight: 400;
-  font-size: 1rem;
-}
-.footer-info span {
-  color: lightgray !important;
-  padding-left: 10px;
-}
-.footer-info p {
-  color: lightgray;
+#main-info-tool-box h5, p, span {
+  color: gray;
+  text-align: center;
+  font-weight: 300;
 }
 .social-container {
   width: 100%;
@@ -67,7 +44,6 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-  color: lightgray !important;
   text-decoration: none;
 }
 .social-container a i {
@@ -85,36 +61,5 @@
   .social-container a i {
     padding: 4px;
     font-size: 2rem;
-    color: gray !important;
-  }
-  .social-container a i:hover {
-    color: gray !important;
-  }
-  .site-tech-tools h5 {
-    font-size: 15px;
-    text-align: center;
-  }
-  .footer-info span {
-    padding-left: 5px;
-    text-align: center;
-    font-size: 15px;
-  }
-  .footer-info p {
-    text-align: center;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 400px) {
-  .site-tech-tools h5 {
-    font-size: 14px;
-    text-align: center;
-  }
-  .footer-info span {
-    padding-left: 5px;
-    text-align: center;
-  }
-  .footer-info p {
-    text-align: center;
-    font-size: 14px;
   }
 }

@@ -6,7 +6,6 @@ import "./github-contribution.css"
 
 const GitContribution = () => {
 
-
   return(
     <div className="git-contribution-box">
       <h1>My Github Activities</h1>

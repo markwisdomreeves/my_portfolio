@@ -32,13 +32,10 @@ const FooterSection = () => {
           </a>
         </div>
         <div id="main-info-tool-box">
-          <div className="footer-info">
-            <p>All rights reserved - Software Developer</p>
-            <span>&copy; {date}</span>
-          </div>
-          <div className="site-tech-tools">
-            <h5>This Portfolio was built with React.js and Node.js</h5>
-          </div>
+          <p>All rights reserved</p>
+          <p>Web Developer</p>
+          <span>&copy; {date}</span>
+          <h5>This Portfolio was built with React & Node</h5>
         </div>
 
       </div>

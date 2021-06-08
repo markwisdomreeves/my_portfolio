@@ -49,29 +49,3 @@
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 600px) {
-  .intro-text-box a {
-    background-color: gray !important;
-  }
-  .intro-text-box a:hover {
-    background-color: gray !important;
-  }
-  .contact-info-box span {
-    border: 2px solid gray;
-  }
-}
-@media screen and (max-width: 500px) {
-  .intro-text p {
-    font-size: 1rem;
-  }
-  .intro-text-box a {
-    padding: 14px;
-    font-size: 1.2rem;
-  }
-  .intro-text-box a:hover {
-    background-color: gray !important;
-  }
-  .intro-text-box a:hover {
-    background-color: gray !important;
-  }
-}

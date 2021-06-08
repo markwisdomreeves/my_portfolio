@@ -28,7 +28,7 @@ class Navbar extends Component {
 
           <div className="profile-info-box">
             <h3>Mark Wisdom Reeves</h3>
-            <p>Junior Full Stack Web Developer</p>
+            <p>Full Stack Web Developer</p>
           </div>
 
           <div className="profile-vertical-line"></div>

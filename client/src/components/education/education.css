@@ -86,8 +86,7 @@
   .education-box h3 {
     font-size: 1rem;
   }
-  .education-box .tech-school-link {
-    padding: 6px;
+  .education-box .tech-school-link:hover {
     background-color: #13a2b7 !important;
   }
   .cert-link-box .cert-link-style:hover {
@@ -100,17 +99,6 @@
 @media screen and (max-width: 600px) {
   .education-box .tech-school-link {
     padding: 6px;
-    background-color: gray !important;
-  }
-  .education-box .tech-school-link {
-    padding: 6px;
-    background-color: gray !important;
-  }
-  .cert-link-box .cert-link-style {
-    color: gray !important;
-  }
-  .cert-link-box .cert-link-style:hover {
-    color: gray !important;
   }
   .education-box h4 {
     font-size: 14px;

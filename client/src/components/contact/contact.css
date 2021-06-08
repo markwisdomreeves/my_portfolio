@@ -40,12 +40,3 @@
   background-color: gray;
   color: black;
 }
-@media screen and (max-width: 600px) {
-  #btn-style {
-    background-color: gray;
-    color: black;
-  }
-  #btn-style:hover {
-    background-color: gray;
-  }
-}

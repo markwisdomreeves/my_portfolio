@@ -33,7 +33,7 @@
 }
 .project-overlay-item h3 {
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
 }
 .project-overlay-item p {
   font-size: 1.1rem;
@@ -91,7 +91,6 @@
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: underline !important;
-    background-color: gray !important;
   }
   .project-links-box a:hover {
     background-color: gray;
@@ -100,7 +99,6 @@
   .project-vertical-line {
     width: 3px;
     height: 20px;
-    background-color: gray !important;
   }
   .single-bank-p-tag {
     padding: 5px;
@@ -108,33 +106,19 @@
 }
 @media screen and (max-width: 500px) {
   .project-overlay-item p {
-    font-size: 13px;
-  }
-  .project-overlay-item h3 {
-    color: #fff;
-    font-weight: 900;
-  }
-  .project-overlay-item p {
     font-size: 1.1rem;
-    color: #fff;
-    font-weight: 600;
   }
 }
 @media screen and (max-width: 400px) {
   .project-overlay-item h3 {
-    color: white;
-    font-weight: 900;
     font-size: 1rem;
   }
   .project-overlay-item p {
     font-size: 0.9rem;
-    color: white;
-    font-weight: 600;
   }
   .project-links-box a {
     font-size: 15px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    text-decoration: underline !important;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
